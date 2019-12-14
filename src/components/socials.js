@@ -4,7 +4,8 @@ class socials extends Component {
     render() {
         return (
             <div>
-                <h1>SOCIALS TEST</h1>
+            <div className='socialsParallax'></div>
+            <h1 className='socialsText'>SOCIALS TEST</h1>
             </div>
         );
     }

@@ -1,13 +1,68 @@
-body {
+.mainParallax {
+  background-image: url('./components/MainImage.jpg');
+  height: 1000px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainText {
+  background-color: brown;
+  height: 200px;
+  margin: 0;
 }
+
+.aboutParallax {
+  background-image: url('./components/AboutMeImage.jpg');
+  height: 1000px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.aboutText {
+  background-color: brown;
+  height: 200px;
+  margin: 0;
+}
+
+.liveParallax {
+  background-image: url('./components/LiveImage.jpg');
+  height: 1000px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.liveText {
+  background-color: brown;
+  height: 200px;
+  margin: 0;
+}
+
+.socialsParallax {
+  background-image: url('./components/SocialsImage.jpg');
+  height: 1000px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.socialsText {
+  background-color: brown;
+  height: 200px;
+  margin: 0;
+}
+
