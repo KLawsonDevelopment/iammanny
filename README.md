@@ -4,6 +4,18 @@
 
 <img src="mannywireframe.jpg_large" height='900px' width='500px'>
 
+##Technologies used
+
+React, axios, react-router-dom, javascript, html, css
+
+##Why make this?
+
+To create a streamer site using a parallax effect, and learn how to properly size pictures.
+
+##Improvements?
+
+(Will fill in upon site completion)
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
