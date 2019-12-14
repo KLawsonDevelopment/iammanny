@@ -1,18 +1,24 @@
 .mainParallax {
   background-image: url('./components/MainImage.jpg');
   height: 1000px;
-  position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainText {
   background-color: brown;
   height: 200px;
+  width: 100%;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutParallax {

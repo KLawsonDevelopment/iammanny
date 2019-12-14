@@ -5,8 +5,11 @@ class main extends Component {
     render() {
         return (
             <div>
-                <div className='mainParallax'></div>
-                <h1 className='mainText'>MAIN TEST</h1>
+                <div className='mainParallax'>
+                    <div className='mainText'>
+                        <h1>MAIN TEST</h1>
+                    </div>
+                </div>
             </div>
         );
     }
