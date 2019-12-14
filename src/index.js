@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+/* This page was created and managed by Keith 'OzmaNeku' Lawson. Please check
+his twitter at https://www.twitter.com/OzmaNeku or contact him at klawsondevelopment@gmail.com
+for website creation and management. */
 serviceWorker.unregister();
