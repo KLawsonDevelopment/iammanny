@@ -1,3 +1,11 @@
+# IAmManny Streamer Site Breakdown
+
+## Wireframe
+
+<img src="mannywireframe.jpg_large" height='900px' width='500px'>
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
