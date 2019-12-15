@@ -17,7 +17,8 @@
 /* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
 
 .mainText {
-  background-color: brown;
+  background-color: rgb(217,177,203);
+  border: solid rgb(118,216,177) 30px;
   height: 200px;
   width: 100%;
   margin: 0;
