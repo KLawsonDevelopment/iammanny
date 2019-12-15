@@ -1,3 +1,6 @@
+/* Initial parallax that controlls the top page (the main page) for the streamer. Added a flexbox to control the position of the text. */
+/* Also added a margin of 0 to keep all pieces together solid to keep the parallax effect clean. */
+
 .mainParallax {
   background-image: url('./components/MainImage.jpg');
   height: 1000px;
@@ -11,15 +14,16 @@
   justify-content: center;
 }
 
+/* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
+
 .mainText {
   background-color: brown;
   height: 200px;
   width: 100%;
   margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
+/* Second parallax that controls the About Me page. Instead of sitting in the center with 100% page width, this one will sit in the top left. */
 
 .aboutParallax {
   background-image: url('./components/AboutMeImage.jpg');
@@ -35,11 +39,16 @@
   justify-content: flex-start;
 }
 
+/* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
+
+
 .aboutText {
   background-color: brown;
   height: 200px;
   margin: 0;
 }
+
+/* Third parallax with the same idea as the second. May adjust from the top left the center due to the commissioner wanting a live box. */
 
 .liveParallax {
   background-image: url('./components/LiveImage.jpg');
@@ -55,11 +64,16 @@
   justify-content: flex-start;
 }
 
+/* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
+
+
 .liveText {
   background-color: brown;
   height: 200px;
   margin: 0;
 }
+
+/* Last parallax. May also shift this one to the center due to the commissioner wanting the social links to their primary social media platforms. Will confirm later. */
 
 .socialsParallax {
   background-image: url('./components/SocialsImage.jpg');
@@ -74,6 +88,9 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
+/* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
+
 
 .socialsText {
   background-color: brown;
