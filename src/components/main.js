@@ -7,7 +7,9 @@ class main extends Component {
             <div>
                 <div className='mainParallax'>
                     <div className='mainText'>
-                        <h1>MAIN TEST</h1>
+                        {/* Ask for custom font? */}
+                        <h1>IAmManny</h1>
+                        <h2>Apex Legends Pro Player</h2>
                     </div>
                 </div>
             </div>

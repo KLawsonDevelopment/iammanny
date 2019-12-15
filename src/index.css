@@ -1,6 +1,10 @@
 /* Initial parallax that controlls the top page (the main page) for the streamer. Added a flexbox to control the position of the text. */
 /* Also added a margin of 0 to keep all pieces together solid to keep the parallax effect clean. */
 
+body {
+  margin: 0;
+}
+
 .mainParallax {
   background-image: url('./components/MainImage.jpg');
   height: 1000px;
@@ -18,10 +22,14 @@
 
 .mainText {
   background-color: rgb(217,177,203);
-  border: solid rgb(118,216,177) 30px;
-  height: 200px;
+  border: solid rgb(118,216,177) 5px;
+  height: 100px;
   width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Second parallax that controls the About Me page. Instead of sitting in the center with 100% page width, this one will sit in the top left. */
