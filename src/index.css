@@ -1,8 +1,54 @@
 /* Initial parallax that controlls the top page (the main page) for the streamer. Added a flexbox to control the position of the text. */
+
 /* Also added a margin of 0 to keep all pieces together solid to keep the parallax effect clean. */
 
 body {
   margin: 0;
+}
+
+.menuDiv {
+  margin:0;
+  width: 0;
+  height: 0;
+}
+
+.menu {
+  background-image: url('./components/menu.png');
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  border: none;
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 75px;
+  outline: 0;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  position: fixed;
+  top: 0;
+  z-index:1;
+}
+
+.menuDropdown {
+  display: none;
+  position: relative;
+  z-index: 1;
+  left: 70px;
+}
+
+.menuDropdown a{
+  display: block;
+}
+
+.show {
+  display:block;
 }
 
 .mainParallax {
@@ -21,15 +67,26 @@ body {
 /* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
 
 .mainText {
-  background-color: rgb(217,177,203);
-  border: solid rgb(118,216,177) 5px;
-  height: 100px;
+  background-color: rgb(217, 177, 203);
+  border: solid rgb(118, 216, 177) 5px;
+  height: 240px;
   width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.mainText p {
+  font-size: 72px;
+  font-weight: bolder;
+  margin: 5px;
+}
+
+.mainText div {
+  font-size: 48px;
+  font-weight: bold;
 }
 
 /* Second parallax that controls the About Me page. Instead of sitting in the center with 100% page width, this one will sit in the top left. */
@@ -49,7 +106,6 @@ body {
 }
 
 /* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
-
 
 .aboutText {
   background-color: brown;
@@ -75,7 +131,6 @@ body {
 
 /* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
 
-
 .liveText {
   background-color: brown;
   height: 200px;
@@ -100,10 +155,8 @@ body {
 
 /* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
 
-
 .socialsText {
   background-color: brown;
   height: 200px;
   margin: 0;
 }
-

@@ -4,12 +4,12 @@ import React, { Component } from 'react';
 class main extends Component {
     render() {
         return (
-            <div>
+            <div id='mainPage'>
                 <div className='mainParallax'>
                     <div className='mainText'>
                         {/* Ask for custom font? */}
-                        <h1>IAmManny</h1>
-                        <h2>Apex Legends Pro Player</h2>
+                        <p>IAmManny</p>
+                        <div>Apex Legends Pro Player</div>
                     </div>
                 </div>
             </div>

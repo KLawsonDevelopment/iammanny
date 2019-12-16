@@ -1,15 +1,20 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Main from './components/main';
 import AboutMe from './components/aboutme';
 import Live from './components/live';
 import Socials from './components/socials'
+import Menu from './components/menu'
 
 function App() {
   return (
+
     // Initial router setup to controll what order the Components go into.
     <Router>
+
+      {/* Menu icon to control the dropdown to skip to certain parts of the site. */}
+      <Menu></Menu>
 
       {/* Initial main page, will show a clip of twitch streamer. */}
       <Main></Main>
