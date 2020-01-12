@@ -45,7 +45,7 @@ body {
 
 .menuDropdown a{
   display: inline-flex;
-  width: 5vw;
+  width: 6vw;
   height: 5vh;
   background-color: rgb(217, 177, 203);
   border: solid rgb(118, 216, 177) 3px;
@@ -54,6 +54,7 @@ body {
   text-decoration: none;
   color: black;
   font-size: large;
+  font-weight: bold;
 }
 
 .show {
