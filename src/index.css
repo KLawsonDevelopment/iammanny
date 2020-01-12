@@ -48,9 +48,12 @@ body {
   width: 5vw;
   height: 5vh;
   background-color: rgb(217, 177, 203);
-  border: solid rgb(118, 216, 177) 5px;
+  border: solid rgb(118, 216, 177) 3px;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: large;
 }
 
 .show {
