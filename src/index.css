@@ -44,7 +44,13 @@ body {
 }
 
 .menuDropdown a{
-  display: block;
+  display: inline-flex;
+  width: 5vw;
+  height: 5vh;
+  background-color: rgb(217, 177, 203);
+  border: solid rgb(118, 216, 177) 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .show {
