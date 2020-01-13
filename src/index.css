@@ -16,7 +16,7 @@ body {
   background-image: url('./components/menu.png');
   background-color: transparent;
   position: fixed;
-  top: 0;
+  top: -1px;
   z-index: 1;
   border: none;
   margin: 0;
@@ -26,6 +26,7 @@ body {
   height: 75px;
   width: 75px;
   outline: 0;
+  padding: 0;
 }
 
 .dropdown {
@@ -111,16 +112,22 @@ body {
   background-size: cover;
   margin: 0;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
 
 .aboutText {
-  background-color: brown;
-  height: 200px;
+  background-color: rgb(217, 177, 203);
+  border: solid rgb(118, 216, 177) 5px;
+  height: 240px;
+  width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Third parallax with the same idea as the second. May adjust from the top left the center due to the commissioner wanting a live box. */
@@ -135,16 +142,22 @@ body {
   background-size: cover;
   margin: 0;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
 
 .liveText {
-  background-color: brown;
-  height: 200px;
+  background-color: rgb(217, 177, 203);
+  border: solid rgb(118, 216, 177) 5px;
+  height: 240px;
+  width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Last parallax. May also shift this one to the center due to the commissioner wanting the social links to their primary social media platforms. Will confirm later. */
@@ -159,14 +172,20 @@ body {
   background-size: cover;
   margin: 0;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Basic className to controll the text div/h1 to customize as needed while not affecting the parallax. */
 
 .socialsText {
-  background-color: brown;
-  height: 200px;
+  background-color: rgb(217, 177, 203);
+  border: solid rgb(118, 216, 177) 5px;
+  height: 240px;
+  width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
