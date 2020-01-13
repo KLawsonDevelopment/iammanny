@@ -103,13 +103,14 @@ body {
 /* Second parallax that controls the About Me page. Instead of sitting in the center with 100% page width, this one will sit in the top left. */
 
 .aboutParallax {
-  background-image: url('./components/AboutMeImage.jpg');
+  background-image: url('./components/AboutMeImage.jpg_medium');
+  background-color: black;
   height: 1000px;
   position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   margin: 0;
   display: flex;
   align-items: center;
