@@ -131,6 +131,10 @@ body {
   justify-content: center;
 }
 
+.aboutText p {
+  font-size: large;
+}
+
 /* Third parallax with the same idea as the second. May adjust from the top left the center due to the commissioner wanting a live box. */
 
 .liveParallax {
