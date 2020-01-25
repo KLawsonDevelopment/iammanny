@@ -2,8 +2,15 @@
 
 /* Also added a margin of 0 to keep all pieces together solid to keep the parallax effect clean. */
 
+@font-face {
+  font-family: 'BigNoodleTilting';
+  font-style: normal;
+  src: local('BigNoddleTilting'), url('./components/font/big_noodle_titling.ttf') format('truetype');
+}
+
 body {
   margin: 0;
+  font-family: 'BigNoodleTilting';
 }
 
 .menuDiv {
