@@ -13,8 +13,16 @@ body {
   font-family: 'BigNoodleTilting';
 }
 
+
 .test {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   background-color: blue;
 }
+
+.test2 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+

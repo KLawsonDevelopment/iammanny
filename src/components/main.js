@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import anime from 'animejs'
 
 class main extends Component {
+
     render() {
         return (
-                <div>
-                    <h1>Manny</h1>
-                </div>
-        );
+        <div>Hello World</div>
+        )
     }
 }
 
