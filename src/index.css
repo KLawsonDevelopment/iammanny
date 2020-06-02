@@ -15,14 +15,8 @@ body {
 
 
 .test {
-  height: 50px;
-  width: 50px;
-  background-color: blue;
-}
-
-.test2 {
-  height: 50px;
-  width: 50px;
-  background-color: red;
+  background: blue;
+  height: 100px;
+  width: 100px;
 }
 

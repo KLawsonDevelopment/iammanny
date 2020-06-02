@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import anime from 'animejs'
+import Anime from 'react-anime'
 
 class main extends Component {
 
     render() {
         return (
-        <div>Hello World</div>
+            <div className='test'>
+                <Anime
+                easing='easeOutElastic'
+                translateX={250}></Anime>
+            </div>
         )
     }
 }
