@@ -13,10 +13,11 @@ body {
   font-family: 'BigNoodleTilting';
 }
 
-
 .test {
   background: blue;
   height: 100px;
-  width: 100px;
+  width: 10px;
+  margin-left: 3px;
+  position: relative;
 }
 
