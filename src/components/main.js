@@ -1,11 +1,29 @@
 import React, { Component } from 'react';
-import Anime from 'react-anime'
+import anime from 'animejs'
 
 class main extends Component {
+
+    openingScreen() {
+        anime({
+            targets: '.test',
+            width: '99%',
+            direction: 'alternate',
+            easing: 'spring',
+            delay: 1000
+        })
+    }
+
+    componentDidMount() {
+        this.openingScreen()
+    }
+    
     render() {
         return (
-            <div>Hello world</div>
-
+            <div>
+                <h1>Hello World</h1>
+                <div className='test'>
+                </div>
+            </div>
         );
     }
 }
