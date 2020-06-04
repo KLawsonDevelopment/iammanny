@@ -11,6 +11,11 @@
 body {
   margin: 0;
   font-family: 'BigNoodleTilting';
+
+}
+
+body a {
+  text-decoration: none;
 }
 
 
@@ -18,6 +23,7 @@ body {
   display: grid;
   grid-template-columns: 30vw 10vw 10vw 10vw 10vw 30vw;
   grid-template-rows: 30px;
+  border: 5px solid rgb(223,187,214)
 }
 
 .mainLink {
