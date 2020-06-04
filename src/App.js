@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Main from './components/main';
+import NavBar from './components/NavBar'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
     // Initial router setup to controll what order the Components go into.
     <Router>
-      <Main></Main>
+      <NavBar></NavBar>
     </Router>
   );
 }

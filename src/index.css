@@ -13,3 +13,26 @@ body {
   font-family: 'BigNoodleTilting';
 }
 
+
+.navBar {
+  display: grid;
+  grid-template-columns: 30vw 10vw 10vw 10vw 10vw 30vw;
+  grid-template-rows: 30px;
+}
+
+.mainLink {
+  grid-column: 2;
+}
+
+.aboutLink {
+  grid-column: 3;
+}
+
+.twitchLink {
+  grid-column: 4;
+}
+
+.socialLink{
+  grid-column: 5;
+}
+
