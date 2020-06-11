@@ -5,7 +5,7 @@ class MainPage extends Component {
         return (
             <div className='mainBox'>
                 <div className='animationPiece'></div>
-                <div className='centerPage' id='centerPage'>Hello World</div>
+                <h1 className='mainPage' id='mainPage'>I Am Manny</h1>
             </div>
         );
     }

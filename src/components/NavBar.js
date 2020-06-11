@@ -3,6 +3,22 @@ import anime from 'animejs'
 
 class navbar extends Component {
 
+    componentDidMount () {
+        setTimeout(function () {
+            anime({
+                targets: '.animationPiece',
+                width: [1, '100%'],
+                direction: 'alternate',
+                easing: 'easeInOutQuad',
+                endDelay:500
+            })
+        },500)
+        setTimeout(function () {
+            var visible = document.getElementById('mainPage')
+            visible.classList.add('showClass')
+        }, 1500)
+    }
+
     testFunction() {
         anime({
             targets: '.animationPiece',
@@ -12,7 +28,7 @@ class navbar extends Component {
             endDelay: 500
         })
         setTimeout(function () {
-            var visible = document.getElementById('centerPage')
+            var visible = document.getElementById('mainPage')
             visible.classList.add('showClass')
         }, 1000)
     }
@@ -26,7 +42,7 @@ class navbar extends Component {
             endDelay: 500
         })
         setTimeout(function () {
-            var invisible = document.getElementById('centerPage')
+            var invisible = document.getElementById('mainPage')
             invisible.classList.remove('showClass')
         }, 1000)
     }
