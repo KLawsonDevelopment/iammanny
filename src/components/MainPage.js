@@ -6,6 +6,7 @@ class MainPage extends Component {
             <div className='mainBox'>
                 <div className='animationPiece'></div>
                 <h1 className='mainPage' id='mainPage'>I Am Manny</h1>
+                <div className='closingPiece'></div>
             </div>
         );
     }

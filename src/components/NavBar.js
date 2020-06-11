@@ -7,36 +7,22 @@ class navbar extends Component {
         setTimeout(function () {
             anime({
                 targets: '.animationPiece',
-                width: [1, '100%'],
+                width: [ 0, '100%'],
                 direction: 'alternate',
                 easing: 'easeInOutQuad',
                 endDelay:500
             })
-        },500)
+        },750)
         setTimeout(function () {
             var visible = document.getElementById('mainPage')
             visible.classList.add('showClass')
-        }, 1500)
-    }
-
-    testFunction() {
-        anime({
-            targets: '.animationPiece',
-            width: [ '1', '100%'],
-            direction: 'alternate',
-            easing: 'easeInOutQuad',
-            endDelay: 500
-        })
-        setTimeout(function () {
-            var visible = document.getElementById('mainPage')
-            visible.classList.add('showClass')
-        }, 1000)
+        }, 2000)
     }
 
     testFunction2() {
         anime({
             targets: '.animationPiece',
-            width: [ '1', '100%'],
+            width: [ 0, '100%'],
             direction: 'alternate',
             easing: 'easeInOutQuad',
             endDelay: 500
@@ -50,7 +36,7 @@ class navbar extends Component {
     render() {
         return (
             <div className='navBar'>
-                <button className='mainLink' onClick={this.testFunction}>Main</button>
+                <button className='mainLink'>Main</button>
                 <button className='aboutLink' onClick={this.testFunction2}>About Me</button>
                 <button className='twitchLink'>Twitch</button>
                 <button className='socialLink'>Social Media</button>
