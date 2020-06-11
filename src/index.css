@@ -18,6 +18,21 @@ body a {
   color: rgb(0, 255, 132)
 }
 
+.mainBox {
+  display: grid;
+  grid-template-columns: 20vw  65vw 15vw;
+  grid-template-rows: 15vh 50vh 15vh;
+}
+
+.centerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
+  grid-row: 2;
+  border: 5px solid rgb(248,248,255);
+}
+
 
 .navBar {
   display: grid;
