@@ -13,14 +13,19 @@ body {
   color: rgb(0, 255, 132)
 }
 
-body a {
+
+
+body button {
+  font-family: 'BigNoodleTilting';
   text-decoration: none;
-  color: rgb(0, 255, 132)
+  color: rgb(0, 255, 132);
+  background-color: rgb(255, 158, 239);
+  border: none;
 }
 
 .mainBox {
   display: grid;
-  grid-template-columns: 20vw  65vw 15vw;
+  grid-template-columns: 15vw 5px 65vw auto;
   grid-template-rows: 15vh 50vh 15vh;
 }
 
@@ -28,9 +33,24 @@ body a {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 2;
+  grid-column: 3;
   grid-row: 2;
-  border: 5px solid rgb(248,248,255);
+  border-right: 5px solid rgb(248,248,255);
+  border-top: 5px solid rgb(248,248,255);
+  border-bottom: 5px solid rgb(248,248,255);
+}
+
+.animationPiece{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 2;
+  background-color: rgb(248,248,255);
+  width: 5px;
+  z-index: 1;
+}
+
+.showClass {
+  visibility: visible;
 }
 
 
@@ -49,6 +69,7 @@ body a {
   border-top: 5px solid rgb(248,248,255);
   border-bottom: 5px solid rgb(248,248,255);
   border-top-left-radius: 25px;
+  font-size: large;
 }
 
 .aboutLink {
@@ -58,6 +79,7 @@ body a {
   grid-column: 3;
   border-top: 5px solid rgb(248,248,255);
   border-bottom: 5px solid rgb(248,248,255);
+  font-size: large;
 }
 
 .twitchLink {
@@ -67,6 +89,7 @@ body a {
   grid-column: 4;
   border-top: 5px solid rgb(248,248,255);
   border-bottom: 5px solid rgb(248,248,255);
+  font-size: large;
 }
 
 .socialLink{
@@ -78,5 +101,6 @@ body a {
   border-bottom: 5px solid rgb(248,248,255);
   border-right: 5px solid rgb(248,248,255);
   border-top-right-radius: 25px;
+  font-size: large;
 }
 
