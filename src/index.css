@@ -14,13 +14,16 @@ body {
 }
 
 
-
 body button {
   font-family: 'BigNoodleTilting';
   text-decoration: none;
   color: rgb(0, 255, 132);
   background-color: rgb(255, 158, 239);
   border: none;
+}
+
+.usedButton {
+  color: black;
 }
 
 .mainBox {

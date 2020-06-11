@@ -4,6 +4,9 @@ import anime from 'animejs'
 class navbar extends Component {
 
     openingWebsite = () => {
+        var currentButton = document.getElementById('mainLink')
+        currentButton.classList.add('usedButton')
+        currentButton.disabled=true;
         setTimeout(function () {
             anime({
                 targets: '.animationPiece',
@@ -26,6 +29,18 @@ class navbar extends Component {
 
 
     showMain = () => {
+        var mainButton = document.getElementById('mainLink')
+        mainButton.classList.add('usedButton')
+        mainButton.disabled=true;
+        var aboutButton = document.getElementById('aboutLink')
+        aboutButton.classList.remove('usedButton')
+        aboutButton.disabled=false;
+        var twitchButton = document.getElementById('twitchLink')
+        twitchButton.classList.remove('usedButton')
+        twitchButton.disabled=false;
+        var socialButton = document.getElementById('socialLink')
+        socialButton.classList.remove('usedButton')
+        socialButton.disabled=false;
         anime({
             targets: '.animationPiece',
             width: [0, '100%'],
@@ -48,6 +63,18 @@ class navbar extends Component {
     }
 
     showAbout = () => {
+        var mainButton = document.getElementById('mainLink')
+        mainButton.classList.remove('usedButton')
+        mainButton.disabled=false;
+        var aboutButton = document.getElementById('aboutLink')
+        aboutButton.classList.add('usedButton')
+        aboutButton.disabled=true;
+        var twitchButton = document.getElementById('twitchLink')
+        twitchButton.classList.remove('usedButton')
+        twitchButton.disabled=false;
+        var socialButton = document.getElementById('socialLink')
+        socialButton.classList.remove('usedButton')
+        socialButton.disabled=false;
         anime({
             targets: '.animationPiece',
             width: [0, '100%'],
@@ -70,6 +97,18 @@ class navbar extends Component {
     }
 
     showTwitch = () => {
+        var mainButton = document.getElementById('mainLink')
+        mainButton.classList.remove('usedButton')
+        mainButton.disabled=false;
+        var aboutButton = document.getElementById('aboutLink')
+        aboutButton.classList.remove('usedButton')
+        aboutButton.disabled=false;
+        var twitchButton = document.getElementById('twitchLink')
+        twitchButton.classList.add('usedButton')
+        twitchButton.disabled=true;
+        var socialButton = document.getElementById('socialLink')
+        socialButton.classList.remove('usedButton')
+        socialButton.disabled=false;
         anime({
             targets: '.animationPiece',
             width: [0, '100%'],
@@ -92,6 +131,18 @@ class navbar extends Component {
     }
 
     showSocial = () => {
+        var mainButton = document.getElementById('mainLink')
+        mainButton.classList.remove('usedButton')
+        mainButton.disabled=false;
+        var aboutButton = document.getElementById('aboutLink')
+        aboutButton.classList.remove('usedButton')
+        aboutButton.disabled=false;
+        var twitchButton = document.getElementById('twitchLink')
+        twitchButton.classList.remove('usedButton')
+        twitchButton.disabled=false;
+        var socialButton = document.getElementById('socialLink')
+        socialButton.classList.add('usedButton')
+        socialButton.disabled=true;
         anime({
             targets: '.animationPiece',
             width: [0, '100%'],
@@ -132,10 +183,10 @@ class navbar extends Component {
     render() {
         return (
             <div className='navBar'>
-                <button className='mainLink' onClick={this.mainClick}>Main</button>
-                <button className='aboutLink' onClick={this.aboutClick}>About Me</button>
-                <button className='twitchLink' onClick={this.twitchClick}>Twitch</button>
-                <button className='socialLink' onClick={this.socialClick}>Social Media</button>
+                <button className='mainLink' id='mainLink' onClick={this.mainClick}>Main</button>
+                <button className='aboutLink' id='aboutLink' onClick={this.aboutClick}>About Me</button>
+                <button className='twitchLink' id='twitchLink' onClick={this.twitchClick}>Twitch</button>
+                <button className='socialLink' id='socialLink' onClick={this.socialClick}>Social Media</button>
             </div>
         );
     }
