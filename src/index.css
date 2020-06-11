@@ -50,6 +50,38 @@ body button {
   margin: 0;
 }
 
+.aboutPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3;
+  grid-row: 2;
+  border: 5px solid rgb(248,248,255);
+  visibility: hidden;
+  margin: 0;
+}
+
+.twitchPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3;
+  grid-row: 2;
+  border: 5px solid rgb(248,248,255);
+  visibility: hidden;
+  margin: 0;
+}
+
+.socialPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3;
+  grid-row: 2;
+  border: 5px solid rgb(248,248,255);
+  visibility: hidden;
+  margin: 0;
+}
 
 
 .showClass {
