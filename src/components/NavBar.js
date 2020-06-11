@@ -7,7 +7,8 @@ class navbar extends Component {
         anime ({
             targets: '.animationPiece',
             width: '100%',
-            direction: 'alternate'
+            direction: 'alternate',
+            easing: 'easeInOutQuad'
         })
     }
 
