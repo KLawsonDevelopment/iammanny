@@ -11,8 +11,8 @@ class TwitchPage extends Component {
                     theme='dark'
                     muted
                     onVideoPause={() => console.log(':(')}
-                    height='580px'
-                    width='980px'
+                    height='65vh'
+                    width='57vw'
                 />
             </div>
         );
