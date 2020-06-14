@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NamePage from './NamePage';
 import TwitchPage from './TwitchPage';
+import SocialPage from './SocialPage';
 
 class MainPage extends Component {
     render() {
@@ -14,7 +15,9 @@ class MainPage extends Component {
                 <div className='twitchPage' id='twitchPage'>
                     <TwitchPage></TwitchPage>
                 </div>
-                <h1 className='socialPage' id='socialPage'>Socials</h1>
+                <h1 className='socialPage' id='socialPage'>
+                    <SocialPage></SocialPage>
+                </h1>
             </div>
         );
     }
