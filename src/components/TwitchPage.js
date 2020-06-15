@@ -13,7 +13,12 @@ class TwitchPage extends Component {
                     onVideoPause={() => console.log(':(')}
                     height='65vh'
                     width='57vw'
+                    className="twitchEmbed"
                 />
+
+                <a href='https://www.twitch.tv/iammanny' className='twitchPageIcon'>
+                    <img src={require('./social-icons/TwitchGlitchBlackOps.PNG')} height='100px' width='100px' alt='TWITCH ICON' />
+                </a>
             </div>
         );
     }

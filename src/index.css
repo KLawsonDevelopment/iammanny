@@ -145,3 +145,55 @@ body button {
   border-top-right-radius: 25px;
   font-size: large;
 }
+
+.twitchPageIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 667px) {
+  .mainBox {
+    display: grid;
+    grid-template-columns: auto 5px 300px 5px auto;
+    grid-template-rows: 15vh 150px 15vh;
+  }
+
+  .twitchEmbed {
+    display: none;
+  }
+
+  .twitchPageIcon {
+    display: inline-block;
+  }
+
+  .twitchPageIcon img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .mainLink {
+    font-size: initial;
+  }
+
+  .aboutLink {
+    font-size: initial;
+  }
+
+  .twitchLink {
+    font-size: initial;
+  }
+
+  .socialLink {
+    font-size: initial;
+  }
+
+  .socialPage img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .navBar {
+    display: grid;
+    grid-template-columns: 10vw 20vw 20vw 20vw 20vw 10vw;
+    grid-template-rows: 45px;
+  }
+}
