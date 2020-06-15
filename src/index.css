@@ -150,8 +150,6 @@ body button {
   display: none;
 }
 
-
-
 @media only screen and (max-width: 1336px) {
   .mainBox {
     display: grid;
