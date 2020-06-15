@@ -150,7 +150,9 @@ body button {
   display: none;
 }
 
-@media only screen and (max-width: 667px) {
+
+
+@media only screen and (max-width: 1336px) {
   .mainBox {
     display: grid;
     grid-template-columns: auto 5px 300px 5px auto;
