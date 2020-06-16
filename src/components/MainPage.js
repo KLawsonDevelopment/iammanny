@@ -15,9 +15,9 @@ class MainPage extends Component {
                 <div className='twitchPage' id='twitchPage'>
                     <TwitchPage></TwitchPage>
                 </div>
-                <h1 className='socialPage' id='socialPage'>
+                <div className='socialPage' id='socialPage'>
                     <SocialPage></SocialPage>
-                </h1>
+                </div>
             </div>
         );
     }
